@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    scrollbar-color:rgba(180, 180, 180, 0.4)
+}
+.contain{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height:100%;
+    align-items:center;
+    width:100%;
+    
+
+}
+.App{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin-top:3em;
+    
+    
+    
+}
+.library{
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+}
+
+@import "./control";
+@import "./info";
+@import "./library";
+@import "./nav";

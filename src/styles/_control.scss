@@ -1,0 +1,35 @@
+.music-controller{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.controls{
+    display:flex;
+    flex-direction:horizontal;
+    justify-content:space-between;
+    align-items: baseline;
+    svg{
+        cursor:pointer;
+        margin:0.5em 0em;
+    }
+
+    
+}
+
+.time-slider{
+     display:flex;
+     flex-direction: horizontal;
+     input{
+         width:100%;
+         padding: 1em 0.1em;
+         cursor: grab;
+     }
+     input:active{
+         cursor:grabbing;
+     }
+     p{
+         padding:1em;
+     }
+ }

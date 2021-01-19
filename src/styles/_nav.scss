@@ -1,0 +1,28 @@
+nav{
+    position:fixed;
+    top:0px;
+    right:0px;
+    width: 100%;
+    h2{
+    float:right;
+    border:2px black solid;
+    padding:0.4em;
+    margin-right:1em;
+    border-radius:2em;
+    cursor:pointer;
+
+    span{
+        margin:1em;
+    }
+}
+h2:hover{
+    background-color:rgb(146, 146, 146);
+    transition: background-color 1s ease;
+    
+}
+h1{
+    margin:0em auto;
+    text-align: center;
+    
+}
+}

@@ -1,0 +1,28 @@
+.info{
+    
+    min-height:15em;
+    min-width:10em;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    img{
+        width:17em;
+        border-radius:50%;
+        
+        animation-duration:5s;
+        animation-timing-function:linear;
+        animation-iteration-count:infinite;
+        animation-fill-mode: both;
+
+    }
+   
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
